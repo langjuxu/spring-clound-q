@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
+ * eureka注册服务提供者
+ *
  * @author qian
  * @date 2018/9/21
  */

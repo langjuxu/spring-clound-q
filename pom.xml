@@ -13,6 +13,7 @@
         <module>spring-cloud-sleuth</module>
         <module>spring-cloud-test</module>
         <module>spring-cloud-eureka-server</module>
+        <module>spring-cloud-test1</module>
     </modules>
 
     <properties>

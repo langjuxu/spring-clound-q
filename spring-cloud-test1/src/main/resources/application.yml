@@ -9,8 +9,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:9110/eureka/   # 服务注册中心地址
   instance:
-    prefer-ip-address: true
-test1:
-  test1ServiceUrl: http://localhost:9112/test1/zipkin/   #调用的test1服务的地址
-
-
+    prefer-ip-address: true  # 使用服务注册中心ip地址
