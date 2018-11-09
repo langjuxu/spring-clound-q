@@ -26,6 +26,9 @@ public class TestController {
     @Value("${test1.test1ServiceUrl}")
     private String test1ServiceUrl;
 
+    @Value("${feng}")
+    private String feng;
+
     @GetMapping("/zipkin/{name}")
     public String testZipkin(@PathVariable String name) {
         log.info("name:{}", name);
@@ -33,5 +36,10 @@ public class TestController {
         ResponseEntity<String> exchange = restTemplate.exchange(test1ServiceUrl + name, HttpMethod.GET, null, String.class);
         System.err.println(exchange.getBody());
         return "test OK";
+    }
+
+    @GetMapping("/feng")
+    public String testConfig() {
+        return feng;
     }
 }
