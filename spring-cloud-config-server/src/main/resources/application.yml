@@ -8,7 +8,17 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/langjuxu/spring-clound-q/spring-clound-config-server
+  #配置文件所在的目录
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: /**
+  #配置文件所在的分支
+  cloud:
+    config:
+      label: master
 eureka:
   client:
     serviceUrl:
