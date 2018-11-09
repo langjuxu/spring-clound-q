@@ -2,7 +2,6 @@ package test;
 
 import com.qian.SpringCloudTestApplication;
 import com.qian.dto.Employee;
-import jdk.internal.org.objectweb.asm.tree.AnnotationNode;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
