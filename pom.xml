@@ -14,6 +14,7 @@
         <module>spring-cloud-test</module>
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-test1</module>
+        <module>spring-cloud-config-server</module>
     </modules>
 
     <properties>
@@ -36,6 +37,20 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-server</artifactId>
             <version>2.0.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.0.9.RELEASE</version>
         </dependency>
     </dependencies>
 
