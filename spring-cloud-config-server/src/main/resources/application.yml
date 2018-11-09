@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/langjuxu/spring-clound-q
-          search-paths: config-repo
+          uri: https://github.com/langjuxu/spring-clound-q/config-repo
+          search-paths: /**
           default-label: master
 eureka:
   client:
