@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-sleuth/spring-cloud-sleuth.iml" filepath="$PROJECT_DIR$/spring-cloud-sleuth/spring-cloud-sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" filepath="$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-test1/spring-cloud-test1.iml" filepath="$PROJECT_DIR$/spring-cloud-test1/spring-cloud-test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-clound-q.iml" filepath="$PROJECT_DIR$/spring-clound-q.iml" />
     </modules>
   </component>

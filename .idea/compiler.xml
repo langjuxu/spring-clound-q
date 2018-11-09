@@ -10,6 +10,7 @@
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-sleuth" />
         <module name="spring-cloud-test" />
+        <module name="spring-cloud-test1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="spring-cloud-eureka-server" target="1.8" />
       <module name="spring-cloud-sleuth" target="1.8" />
       <module name="spring-cloud-test" target="1.8" />
+      <module name="spring-cloud-test1" target="1.8" />
       <module name="spring-clound-q" target="1.8" />
     </bytecodeTargetLevel>
   </component>
