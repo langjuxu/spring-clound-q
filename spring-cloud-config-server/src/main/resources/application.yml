@@ -17,3 +17,6 @@ eureka:
       defaultZone: http://localhost:9110/eureka/   # 服务注册中心地址
   instance:
     prefer-ip-address: true  # 使用服务注册中心ip地址
+
+encrypt:
+  key: qian
