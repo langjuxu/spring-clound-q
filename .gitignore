@@ -36,8 +36,7 @@ spring-cloud-test1/spring-cloud-test1.iml
 spring-cloud-test1/src/main/java/com/qian/utils/
 spring-cloud-test1/src/test/
 spring-cloud-test1/target/
-src/
-target/
+
 /.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RC2.xml
 /.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml
 /.idea/compiler.xml
