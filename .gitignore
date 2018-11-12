@@ -38,3 +38,15 @@ spring-cloud-test1/src/test/
 spring-cloud-test1/target/
 src/
 target/
+/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RC2.xml
+/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/spring-cloud-client-config/spring-cloud-client-config.iml
+/spring-cloud-common/spring-cloud-common.iml
+/spring-cloud-eureka-server/spring-cloud-eureka-server.iml
+/spring-cloud-sleuth/spring-cloud-sleuth.iml
+/spring-cloud-test/spring-cloud-test.iml
+/spring-clound-q.iml
