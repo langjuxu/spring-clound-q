@@ -19,23 +19,8 @@ gen
 .idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RELEASE.xml
 .idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml
 .idea/workspace.xml
-spring-cloud-client-config/src/test/
-spring-cloud-client-config/target/
-spring-cloud-common/src/main/resources/
-spring-cloud-common/src/test/
-spring-cloud-common/target/
 spring-cloud-config-server/spring-cloud-config-server.iml
-spring-cloud-config-server/src/test/
-spring-cloud-config-server/target/
-spring-cloud-eureka-server/src/test/
-spring-cloud-eureka-server/target/
-spring-cloud-sleuth/src/test/
-spring-cloud-sleuth/target/
-spring-cloud-test/target/
 spring-cloud-test1/spring-cloud-test1.iml
-spring-cloud-test1/src/main/java/com/qian/utils/
-spring-cloud-test1/src/test/
-spring-cloud-test1/target/
 
 /.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RC2.xml
 /.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RELEASE.xml
