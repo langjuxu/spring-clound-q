@@ -20,6 +20,7 @@ public class TestConfigController {
 
     @GetMapping("/config/feng")
     public String testConfig() {
+        log.info("read config file value...");
         return feng;
     }
 }
