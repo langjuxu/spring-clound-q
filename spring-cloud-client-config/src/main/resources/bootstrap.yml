@@ -1,32 +1,32 @@
-# ÎªÁËÄÜ¹»ÈÃÈÕÖ¾ÎÄ¼ş£¨zipkin£©¿ÉÒÔ»ñÈ¡µ½·şÎñÃû³Æ£¬ÎÒÃÇĞèÒª½«Ô­À´ÅäÖÃÔÚapplication.ymlÖĞµÄ²¿·ÖÄÚÈİÒÆÈëµ½bootstrap.propertiesÅäÖÃÎÄ¼şÖĞ£¬
-# ÕâÊÇÒòÎªSpringBootÔÚÆô¶¯Ê±»áÓÅÏÈÉ¨ÃèbootstrapÅäÖÃÔ´£¬´Ó¶øÄÜ¹»ÈÃÈÕÖ¾¿ÉÒÔ»ñÈ¡µ½·şÎñÃû³Æ¡£
-# ÒòÎª config µÄÏà¹ØÅäÖÃ»áÏÈÓÚ application.yml£¬¶ø bootstrap.properties µÄ¼ÓÔØÒ²ÊÇÏÈÓÚ application.yml
-# ÅäÖÃÖĞĞÄÎÄ¼şµÄÃüÃû£ºclient-config-dev.yml
+# ä¸ºäº†èƒ½å¤Ÿè®©æ—¥å¿—æ–‡ä»¶ï¼ˆzipkinï¼‰å¯ä»¥è·å–åˆ°æœåŠ¡åç§°ï¼Œæˆ‘ä»¬éœ€è¦å°†åŸæ¥é…ç½®åœ¨application.ymlä¸­çš„éƒ¨åˆ†å†…å®¹ç§»å…¥åˆ°bootstrap.propertiesé…ç½®æ–‡ä»¶ä¸­ï¼Œ
+# è¿™æ˜¯å› ä¸ºSpringBootåœ¨å¯åŠ¨æ—¶ä¼šä¼˜å…ˆæ‰«æbootstrapé…ç½®æºï¼Œä»è€Œèƒ½å¤Ÿè®©æ—¥å¿—å¯ä»¥è·å–åˆ°æœåŠ¡åç§°ã€‚
+# å› ä¸º config çš„ç›¸å…³é…ç½®ä¼šå…ˆäº application.ymlï¼Œè€Œ bootstrap.properties çš„åŠ è½½ä¹Ÿæ˜¯å…ˆäº application.yml
+# é…ç½®ä¸­å¿ƒæ–‡ä»¶çš„å‘½åï¼šclient-config-dev.yml
 # /{application}/{profile}[/{label}]
 #/{application}-{profile}.yml
 #/{label}/{application}-{profile}.yml
 #/{application}-{profile}.properties
 #/{label}/{application}-{profile}.properties
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9110/eureka/
+  instance:
+    prefer-ip-address: true
 server:
   port: 9113
 spring:
   application:
     name: client-config
-  profiles:
-    active: dev
   cloud:
     config:
-      uri: http://localhost:9009
       fail-fast: true
-  zipkin:
-    base-url: http://localhost:9411  # ÈÕÖ¾¸ú×ÙÊÕ¼¯·şÎñµØÖ·
+      uri: http://localhost:9009
+  profiles:
+    active: dev
   sleuth:
     sampler:
       probability: 1.0
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9110/eureka/   # ·şÎñ×¢²áÖĞĞÄµØÖ·
-  instance:
-    prefer-ip-address: true
+  zipkin:
+    base-url: http://localhost:9411
 
