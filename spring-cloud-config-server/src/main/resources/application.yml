@@ -1,12 +1,14 @@
 server:
   port: 9009
 spring:
+  application:
+    name: cloud-config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/langjuxu/spring-clound-q
-          search-paths: config-repo
+          uri: https://github.com/langjuxu/spring-clound-q/spring-cloud-config-server
+          search-paths: spring_cloud_in_action/config-repo
 #          default-label: master
   zipkin:
     base-url: http://localhost:9411  # 日志跟踪收集服务地址
