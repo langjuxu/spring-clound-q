@@ -6,6 +6,9 @@ spring:
       probability: 1.0
 #  cloud:
 #    config:
+#      discovery:
+#        enabled: false
+#        service-id: cloud-config-server
 #      server:
 #        git:
 #          uri: https://github.com/langjuxu/spring-clound-q
