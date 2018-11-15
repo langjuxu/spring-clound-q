@@ -1,9 +1,6 @@
+server:
+  port: 9009
 spring:
-  zipkin:
-    base-url: http://localhost:9411  # 日志跟踪收集服务地址
-  sleuth:
-    sampler:
-      probability: 1.0
   cloud:
     config:
       server:
@@ -11,6 +8,11 @@ spring:
           uri: https://github.com/langjuxu/spring-clound-q
           search-paths: config-repo
 #          default-label: master
+  zipkin:
+    base-url: http://localhost:9411  # 日志跟踪收集服务地址
+  sleuth:
+    sampler:
+      probability: 1.0
   security:
     user:
       name: feng
@@ -21,6 +23,5 @@ eureka:
       defaultZone: http://localhost:9110/eureka/   # 服务注册中心地址
   instance:
     prefer-ip-address: true  # 使用服务注册中心ip地址
-
 encrypt:
   key: qian
