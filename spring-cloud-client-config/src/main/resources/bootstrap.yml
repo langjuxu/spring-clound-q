@@ -9,21 +9,20 @@
 #/{label}/{application}-{profile}.properties
 server:
   port: 9113
-
 spring:
   application:
     name: client-config
-    profiles: dev
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:9009
+      fail-fast: true
   zipkin:
     base-url: http://localhost:9411  # 日志跟踪收集服务地址
   sleuth:
     sampler:
       probability: 1.0
-  cloud:
-    config:
-      uri: http://localhost:9009
-      fail-fast: true
-
 eureka:
   client:
     serviceUrl:
