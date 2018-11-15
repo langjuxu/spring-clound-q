@@ -7,10 +7,27 @@
 #/{label}/{application}-{profile}.yml
 #/{application}-{profile}.properties
 #/{label}/{application}-{profile}.properties
-spring.application.name=client-config
-spring.profiles.active=dev
-server.port=9113
+server:
+  port: 9113
 
-spring.cloud.config.uri=http://localhost:9009
-spring.cloud.config.fail-fast=true
+spring:
+  application:
+    name: client-config
+    profiles: dev
+  zipkin:
+    base-url: http://localhost:9411  # 日志跟踪收集服务地址
+  sleuth:
+    sampler:
+      probability: 1.0
+  cloud:
+    config:
+      uri: http://localhost:9009
+      fail-fast: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9110/eureka/   # 服务注册中心地址
+  instance:
+    prefer-ip-address: true
 
