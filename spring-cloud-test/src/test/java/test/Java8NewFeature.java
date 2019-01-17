@@ -209,5 +209,15 @@ public class Java8NewFeature {
          */
     }
 
+    @Test
+    public void streamTest10() {
+        // count-返回流中总个数
+        long count = employees.stream().count();
+        System.err.println(count);
+        long count1 = employees.parallelStream().count();
+        System.err.println(count1);
+
+    }
+
 
 }
