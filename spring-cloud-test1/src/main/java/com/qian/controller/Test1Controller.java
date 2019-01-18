@@ -32,6 +32,7 @@ public class Test1Controller {
         log.info("my key:{}", key);
         log.info("lllllllllllllllllllllllll");
         log.info("2222222222222222222222222");
+        log.info("3333333333333333333333333");
         return key;
     }
 
