@@ -4,6 +4,13 @@
 
 # IntelliJ project files
 /.idea/
+spring-cloud-client-config/target
+spring-cloud-common/target
+spring-cloud-config-server/target
+spring-cloud-eureka-server/target
+spring-cloud-sleuth/target
+spring-cloud-test/target
+spring-cloud-test1/target
 .idea
 *.iml
 out
