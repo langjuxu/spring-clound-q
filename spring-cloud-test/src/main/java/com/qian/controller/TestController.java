@@ -35,4 +35,8 @@ public class TestController {
         return "test OK";
     }
 
+    public void haha(){
+        log.info("test merge...");
+    }
+
 }
