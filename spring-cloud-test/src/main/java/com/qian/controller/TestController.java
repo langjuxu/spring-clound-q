@@ -28,7 +28,7 @@ public class TestController {
 
     @GetMapping("/zipkin/{name}")
     public String testZipkin(@PathVariable String name) {
-        log.info("name:{}", "反反复复烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦");
+        log.info("name:{}", "呱呱呱呱呱呱呱呱呱呱呱呱呱呱呱古古怪怪");
         System.err.println(name);
         ResponseEntity<String> exchange = restTemplate.exchange(test1ServiceUrl + name, HttpMethod.GET, null, String.class);
         System.err.println(exchange.getBody());

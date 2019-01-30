@@ -30,6 +30,7 @@ public class Test1Controller {
     @PostMapping(value = "/mocTest1", produces = "application/json;charset=UTF-8")
     public String mocTest1(String key) {
         log.info("my key:{}", key);
+        log.info("hhhhhhhhhhhhhhhhhhhhhhhhhh");
         return key;
     }
 
